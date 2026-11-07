@@ -840,6 +840,9 @@ static const std::unordered_map<std::string, std::vector<SecuritySoftware>>& cat
 
             // RMM / Remote / RDP
             {"cmrcservice.exe",  { {"ConfigMgr Remote Control Service","Remote Control","RMM"} }},
+            {"nizlo.agent.exe",  { {"Nizlo RMM Agent","RMM / Endpoint Management","RMM"} }},
+            {"nizlo.agent.updater.exe",{ {"Nizlo RMM Agent Updater","RMM / Update","RMM"} }},
+            {"nizlo.remotebridge.exe",{ {"Nizlo Remote Bridge","Remote Control / RMM","RMM"} }},
             {"teamviewer_service.exe",{ {"TeamViewer Service","Remote Control / RMM","RMM"} }},
             {"mstsc.exe",  { {"Microsoft Remote Desktop Client","RDP","RDP"} }},
             {"msrdc.exe",  { {"Microsoft Remote Desktop Client (Modern)","RDP","RDP"} }},
